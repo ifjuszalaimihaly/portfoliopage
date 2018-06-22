@@ -6,5 +6,6 @@
     @include('partials.navbar')
     <div class="container" id="content">
         @include('partials.aboutme')
+        @include('partials.contact')
     </div>
 @endsection

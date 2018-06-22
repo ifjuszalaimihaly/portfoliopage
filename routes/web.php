@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('home');
 });
+
+Route::post('contact/message','ContactController@sendMessage')->name('contact');
